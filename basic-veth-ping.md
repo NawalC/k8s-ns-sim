@@ -1,12 +1,7 @@
 # Goal: Two pods(namespaces) talking to each other directly
 
-  +-----------+            +-----------+
-  | Namespace |            | Namespace |
-  |   ns1     |            |   ns2     |
-  |           |            |           |
-  | 10.0.0.1  | <--------> | 10.0.0.2  |
-  | veth-ns1  |   veth     | veth-ns2  |
-  +-----------+   pair     +-----------+
+<img width="282" height="152" alt="image" src="https://github.com/user-attachments/assets/d56ee3d7-45a8-4d30-98e1-5baef783c040" />
+
 
 # Create namespaces
 sudo ip netns add pod1
